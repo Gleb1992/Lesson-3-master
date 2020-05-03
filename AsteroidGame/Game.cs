@@ -12,7 +12,7 @@ namespace AsteroidGame
         static Bitmap image;
         static Ship ship;
 
-        // Графическое устройство для вывода графики            
+        // Графическое устройство для графики            
         static Graphics g;
 
         static BaseObject[] objs;
@@ -46,7 +46,8 @@ namespace AsteroidGame
             image = new Bitmap(@"background.bmp", true);
 
 
-            form.KeyDown += Form_KeyDown;
+            form.KeyDown += Form_KeyDown;
+
 
 
 
